@@ -14,4 +14,4 @@ int number2 = Convert.ToInt32(Console.ReadLine());
 int ostatok = number1 % number2 ;
 if (ostatok == 0)
     Console.WriteLine("Кратно");
-else Console.WriteLine("Не кратно, иди, попей чаёк и подумай ещё");
+else Console.WriteLine($"Не кратно, остаток = {number1 % number2}");
