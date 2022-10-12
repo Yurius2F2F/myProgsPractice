@@ -27,3 +27,15 @@ bool CheckingNumbers(int number1, int number2)
 bool result = CheckingNumbers(num1, num2);
 if (result) Console.Write("Да");
 else Console.Write("Нет");
+
+// или так:
+// Console.WriteLine("Введите первое целое число: ");
+// int number1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите второе целое число: ");
+// int number2 = Convert.ToInt32(Console.ReadLine());
+// bool CheckSquare(int num1, int num2)
+// {
+//     return num1 * num2 == num2 || num2 * num2 == num1;
+// }
+// if (CheckSquare(number1, number2)) Console.WriteLine("yes");
+// else Cnsole.WriteLine("no");
