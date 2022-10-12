@@ -27,15 +27,3 @@ bool CheckingNumbers(int number1, int number2)
 bool result = CheckingNumbers(num1, num2);
 if (result) Console.Write("Да");
 else Console.Write("Нет");
-
-// или так:
-// Console.WriteLine("Введите первое число: ");
-// int number = Convert.ToInt32(Console.ReadLine());
-
-// bool Remains(int a, int b)
-// {
-//     return a% b == 0;
-// }
-
-// if (Remains(number,7) && Remains(number,23)) Console.WriteLine("Da");
-// else Console.WriteLine("Net");
