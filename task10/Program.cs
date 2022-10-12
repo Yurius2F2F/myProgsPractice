@@ -15,4 +15,4 @@ if (number >= 100 && number <= 999)
     int middleDigit = tmp % 10;
     Console.WriteLine($"Средняя цифра числа {number} это - {middleDigit}");
 }
-else Console.WriteLine($"Число {number} не трёхзначное!");
+else Console.WriteLine($"Число {number} - не трёхзначное!");
