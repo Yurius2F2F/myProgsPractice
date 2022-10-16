@@ -15,9 +15,9 @@ Console.WriteLine(result);
 
 int Quarter(int xc, int yc)
 {
-    if (x > 0 && y > 0) return 1;
-    if (x < 0 && y > 0) return 2;
-    if (x < 0 && y < 0) return 3;
-    if (x > 0 && y < 0) return 4;
+    if (xc > 0 && yc > 0) return 1;
+    if (xc < 0 && yc > 0) return 2;
+    if (xc < 0 && yc < 0) return 3;
+    if (xc > 0 && yc < 0) return 4;
     return 0;
 }
